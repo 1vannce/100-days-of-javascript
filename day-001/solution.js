@@ -2,7 +2,6 @@
  * @param {string} str
  * @return {number}
  */
-
 function countVowels(str) {
   const vowels = "aeiouAEIOU";
   let count = 0;
@@ -18,14 +17,18 @@ function countVowels(str) {
   return count;
 }
 
+function run(input) {
+  console.log("Output:", countVowels(input));
+}
+
 // Test Case: 1
-console.log("Output: " + countVowels("hello"));
+run("hello");
 
 // Test Case: 2
-console.log("Output: " + countVowels("JavaScript"));
+run("JavaScript");
 
 // Test Case: 3
-console.log("Output: " + countVowels("sky"));
+run("sky");
 
 // Test Case: 4
-console.log("Output: " + countVowels("AEIOU"));
+run("AEIOU");

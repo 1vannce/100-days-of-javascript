@@ -6,11 +6,15 @@ function reverseWords(str) {
   return str.trim().split(" ").filter(Boolean).reverse().join(" ");
 }
 
+function run(input) {
+  console.log("Output:", reverseWords(input));
+}
+
 // Test Case: 1
-console.log("Output:", reverseWords("the sky is blue"));
+run("the sky is blue");
 
 // Test Case: 2
-console.log("Output:", reverseWords("  hello world  "));
+run("  hello world  ");
 
 // Test Case: 3
-console.log("Output:", reverseWords("a good   example"));
+run("a good   example");

@@ -25,6 +25,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | Day | Challenge | Folder | Status |
 | --- | --- | --- | --- |
 | 001 | Count the Vowels | `day-001` | ✅ Completed |
+| 002 | Reverse Words in a Sentence | `day-002` | ✅ Completed |
 
 ## How to Run a Solution
 

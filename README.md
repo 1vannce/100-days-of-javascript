@@ -26,7 +26,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | --- | --------------------------- | --------- | ------------ |
 | 001 | Count the Vowels            | `day-001` | ✅ Completed |
 | 002 | Reverse Words in a Sentence | `day-002` | ✅ Completed |
-| 002 | Valid Palindrome            | `day-003` | ✅ Completed |
+| 003 | Valid Palindrome            | `day-003` | ✅ Completed |
 
 ## How to Run a Solution
 

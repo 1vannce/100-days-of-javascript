@@ -1,4 +1,4 @@
-import { spawnSync } from ("child_process");
+import { spawnSync } from "child_process";
 const t = performance.now();
 const res = spawnSync(process.execPath, [process.argv[2]], {
   stdio: "inherit",

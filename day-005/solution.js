@@ -20,30 +20,14 @@ function twoSum(nums, target) {
 }
 
 const testCases = [
-  {
-    // Test 0
-    nums: [2, 7, 11, 15],
-    target: 9,
-    expected: [0, 1],
-  },
-  {
-    // Test 1
-    nums: [3, 2, 4],
-    target: 6,
-    expected: [1, 2],
-  },
-  {
-    // Test 2
-    nums: [3, 3],
-    target: 6,
-    expected: [0, 1],
-  },
-  {
-    // Test 3
-    nums: [-1, -2, -3, -4, -5],
-    target: -8,
-    expected: [2, 4],
-  },
+  // Test 0
+  { nums: [2, 7, 11, 15], target: 9, expected: [0, 1] },
+  // Test 1
+  { nums: [3, 2, 4], target: 6, expected: [1, 2] },
+  // Test 2
+  { nums: [3, 3], target: 6, expected: [0, 1] },
+  // Test 3
+  { nums: [-1, -2, -3, -4, -5], target: -8, expected: [2, 4] },
 ];
 
 console.table(

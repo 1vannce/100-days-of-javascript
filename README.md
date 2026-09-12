@@ -31,6 +31,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 005 | Two Sum                                | `day-005` | ✅ Completed |
 | 006 | Valid Anagram                          | `day-006` | ✅ Completed |
 | 007 | Valid Parentheses                      | `day-007` | ✅ Completed |
+| 008 | Bubble Sort                            | `day-008` | ✅ Completed |
 
 ## How to Run a Solution
 

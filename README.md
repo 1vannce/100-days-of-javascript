@@ -33,6 +33,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 007 | Valid Parentheses                      | `day-007` | ✅ Completed |
 | 008 | Bubble Sort                            | `day-008` | ✅ Completed |
 | 009 | Selection Sort                         | `day-009` | ✅ Completed |
+| 010 | Binary Search                          | `day-010` | ✅ Completed |
 
 ## How to Run a Solution
 

@@ -34,6 +34,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 008 | Bubble Sort                            | `day-008` | ✅ Completed |
 | 009 | Selection Sort                         | `day-009` | ✅ Completed |
 | 010 | Binary Search                          | `day-010` | ✅ Completed |
+| 011 | Search Insert Position                 | `day-011` | ✅ Completed |
 
 ## How to Run a Solution
 

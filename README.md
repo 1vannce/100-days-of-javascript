@@ -22,20 +22,21 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 
 ## Current Progress
 
-| Day | Challenge                              | Folder    | Status       |
-| --- | -------------------------------------- | --------- | ------------ |
-| 001 | Count the Vowels                       | `day-001` | ✅ Completed |
-| 002 | Reverse Words in a Sentence            | `day-002` | ✅ Completed |
-| 003 | Valid Palindrome                       | `day-003` | ✅ Completed |
-| 004 | Find the First Non-Repeating Character | `day-004` | ✅ Completed |
-| 005 | Two Sum                                | `day-005` | ✅ Completed |
-| 006 | Valid Anagram                          | `day-006` | ✅ Completed |
-| 007 | Valid Parentheses                      | `day-007` | ✅ Completed |
-| 008 | Bubble Sort                            | `day-008` | ✅ Completed |
-| 009 | Selection Sort                         | `day-009` | ✅ Completed |
-| 010 | Binary Search                          | `day-010` | ✅ Completed |
-| 011 | Search Insert Position                 | `day-011` | ✅ Completed |
-| 012 | Insertion Sort                         | `day-012` | ✅ Completed |
+| Day | Challenge                                               | Folder    | Status       |
+| --- | ------------------------------------------------------- | --------- | ------------ |
+| 001 | Count the Vowels                                        | `day-001` | ✅ Completed |
+| 002 | Reverse Words in a Sentence                             | `day-002` | ✅ Completed |
+| 003 | Valid Palindrome                                        | `day-003` | ✅ Completed |
+| 004 | Find the First Non-Repeating Character                  | `day-004` | ✅ Completed |
+| 005 | Two Sum                                                 | `day-005` | ✅ Completed |
+| 006 | Valid Anagram                                           | `day-006` | ✅ Completed |
+| 007 | Valid Parentheses                                       | `day-007` | ✅ Completed |
+| 008 | Bubble Sort                                             | `day-008` | ✅ Completed |
+| 009 | Selection Sort                                          | `day-009` | ✅ Completed |
+| 010 | Binary Search                                           | `day-010` | ✅ Completed |
+| 011 | Search Insert Position                                  | `day-011` | ✅ Completed |
+| 012 | Insertion Sort                                          | `day-012` | ✅ Completed |
+| 013 | Find First and Last Position of Element in Sorted Array | `day-013` | ✅ Completed |
 
 ## How to Run a Solution
 

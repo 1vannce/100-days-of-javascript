@@ -37,6 +37,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 011 | Search Insert Position                                  | `day-011` | ✅ Completed |
 | 012 | Insertion Sort                                          | `day-012` | ✅ Completed |
 | 013 | Find First and Last Position of Element in Sorted Array | `day-013` | ✅ Completed |
+| 014 | Search in Rotated Sorted Array                          | `day-014` | ✅ Completed |
 
 ## How to Run a Solution
 

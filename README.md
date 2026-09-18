@@ -38,6 +38,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 012 | Insertion Sort                                          | `day-012` | ✅ Completed |
 | 013 | Find First and Last Position of Element in Sorted Array | `day-013` | ✅ Completed |
 | 014 | Search in Rotated Sorted Array                          | `day-014` | ✅ Completed |
+| 015 | Find Peak Element                                       | `day-015` | ✅ Completed |
 
 ## How to Run a Solution
 

@@ -40,6 +40,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 014 | Search in Rotated Sorted Array                          | `day-014` | ✅ Completed |
 | 015 | Find Peak Element                                       | `day-015` | ✅ Completed |
 | 016 | Reverse Linked List                                     | `day-016` | ✅ Completed |
+| 017 | Linked List Cycle                                       | `day-017` | ✅ Completed |
 
 ## How to Run a Solution
 

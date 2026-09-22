@@ -42,6 +42,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 016 | Reverse Linked List                                     | `day-016` | ✅ Completed |
 | 017 | Linked List Cycle                                       | `day-017` | ✅ Completed |
 | 018 | Middle of the Linked List                               | `day-018` | ✅ Completed |
+| 019 | Merge Two Sorted Lists                                  | `day-019` | ✅ Completed |
 
 ## How to Run a Solution
 

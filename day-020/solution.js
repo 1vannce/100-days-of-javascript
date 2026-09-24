@@ -1,29 +1,26 @@
 /**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
+ * @param {ListNode} head
+ * @return {boolean}
  */
-function mergeTwoLists(list1, list2) {
-  const dummy = new ListNode(-1);
-  let current = dummy;
+function isPalindrome(head) {
+  let values = [];
+  let current = head;
 
-  // Traverse both lists while neither is null
-  while (list1 !== null && list2 !== null) {
-    if (list1.val <= list2.val) {
-      current.next = list1;
-      list1 = list1.next;
-    } else {
-      current.next = list2;
-      list2 = list2.next;
-    }
+  // Traverse and store values
+  while (current) {
+    values.push(current.val);
     current = current.next;
   }
 
-  // Attach the remaining nodes from whichever list is not empty
-  current.next = list1 !== null ? list1 : list2;
-
-  // Return the head of the merged list (skipping the dummy)
-  return dummy.next;
+  // Compare array with its reverse
+  let left = 0;
+  let right = values.length - 1;
+  while (left < right) {
+    if (values[left] !== values[right]) return false;
+    left++;
+    right--;
+  }
+  return true;
 }
 
 class ListNode {
@@ -45,37 +42,25 @@ function arrayToList(arr) {
   return dummy.next;
 }
 
-function listToArray(head) {
-  const result = [];
-  let curr = head;
-  while (curr !== null) {
-    result.push(curr.val);
-    curr = curr.next;
-  }
-  return result;
-}
-
 // Test cases
 const testCases = [
-  { list1: [1, 2, 4], list2: [1, 3, 4], expected: [1, 1, 2, 3, 4, 4] },
-  { list1: [], list2: [], expected: [] },
-  { list1: [], list2: [0], expected: [0] },
-  { list1: [5, 10, 15], list2: [2, 3, 20], expected: [2, 3, 5, 10, 15, 20] },
-  { list1: [1, 2, 3], list2: [4, 5, 6], expected: [1, 2, 3, 4, 5, 6] },
+  { input: [1, 2, 2, 1], expected: true },
+  { input: [1, 2], expected: false },
+  { input: [1, 2, 3, 2, 1], expected: true },
+  { input: [1], expected: true },
+  { input: [1, 0, 0], expected: false },
+  { input: [1, 2, 3, 4, 3, 2, 1], expected: true },
 ];
 
 console.table(
-  testCases.map(({ list1, list2, expected }) => {
-    const l1 = arrayToList(list1);
-    const l2 = arrayToList(list2);
-    const merged = mergeTwoLists(l1, l2);
-    const actual = listToArray(merged);
-    const passed = `${actual}` === `${expected}`;
+  testCases.map(({ input, expected }) => {
+    const list = arrayToList(input);
+    const result = isPalindrome(list);
+    const passed = result === expected;
     return {
-      List1: `[${list1}]`,
-      List2: `[${list2}]`,
-      Expected: `[${expected}]`,
-      Actual: `[${actual}]`,
+      Input: `[${input}]`,
+      Expected: expected,
+      Actual: result,
       Passed: passed ? "PASS" : "FAIL",
     };
   }),

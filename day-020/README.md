@@ -1,12 +1,10 @@
-### Day 19: Merge Two Sorted Lists
+### Day 20: Palindrome Linked List
 
-You are given the heads of two sorted linked lists, `list1` and `list2`.
+Given the `head` of a singly linked list, return `true` if it is a palindrome, or `false` otherwise.
 
-Merge the two lists into one **sorted** linked list. The list should be made by splicing together the nodes of the first two lists.
+A linked list is a palindrome if the sequence of values read from left to right is identical to the sequence read from right to left.
 
-Return the head of the merged linked list.
-
-**Crucial Requirement:** Solve this **in-place** with $O(1)$ auxiliary space by rewiring the existing `.next` references between nodes. Do not extract values into an array, sort them, and allocate a brand new list.
+**Crucial Requirement:** Implement a solution that runs in **$O(n)$ time** and **$O(1)$ auxiliary space**. Do not copy node values into a JavaScript array or string to check with two pointers.
 
 **Definition for Singly-Linked List Node:**
 
@@ -23,35 +21,37 @@ class ListNode {
 
 ```javascript
 // Example 1:
-// Input: list1 = [1, 2, 4], list2 = [1, 3, 4]
-// Output: [1, 1, 2, 3, 4, 4]
+// Input: 1 -> 2 -> 2 -> 1 -> null
+// Output: true
 
 // Example 2:
-// Input: list1 = [], list2 = []
-// Output: []
+// Input: 1 -> 2 -> null
+// Output: false
 
 // Example 3:
-// Input: list1 = [], list2 = [0]
-// Output: [0]
+// Input: 1 -> 2 -> 3 -> 2 -> 1 -> null
+// Output: true
+
+// Example 4:
+// Input: 1 -> null
+// Output: true
 ```
 
 **Constraints**
 
-- The number of nodes in both lists is in the range $[0, 50]$.
-- $-100 \le \text{Node.val} \le 100$.
-- Both `list1` and `list2` are sorted in non-decreasing order.
-- Time Complexity: $O(n + m)$ where $n$ and $m$ are the lengths of `list1` and `list2`.
-- Auxiliary Space Complexity: $O(1)$.
+- The number of nodes in the list is in the range $[1, 10^5]$.
+- $0 \le \text{Node.val} \le 9$.
+- Time Complexity: $O(n)$
+- Auxiliary Space Complexity: $O(1)$
 
 **Starter Code**
 
 ```javascript
 /**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
+ * @param {ListNode} head
+ * @return {boolean}
  */
-function mergeTwoLists(list1, list2) {
+function isPalindrome(head) {
   // Write your code here
 }
 ```
@@ -82,37 +82,25 @@ function arrayToList(arr) {
   return dummy.next;
 }
 
-function listToArray(head) {
-  const result = [];
-  let curr = head;
-  while (curr !== null) {
-    result.push(curr.val);
-    curr = curr.next;
-  }
-  return result;
-}
-
 const testCases = [
-  { list1: [1, 2, 4], list2: [1, 3, 4], expected: [1, 1, 2, 3, 4, 4] },
-  { list1: [], list2: [], expected: [] },
-  { list1: [], list2: [0], expected: [0] },
-  { list1: [5, 10, 15], list2: [2, 3, 20], expected: [2, 3, 5, 10, 15, 20] },
-  { list1: [1, 2, 3], list2: [4, 5, 6], expected: [1, 2, 3, 4, 5, 6] },
+  { input: [1, 2, 2, 1], expected: true },
+  { input: [1, 2], expected: false },
+  { input: [1, 2, 3, 2, 1], expected: true },
+  { input: [1], expected: true },
+  { input: [1, 0, 0], expected: false },
+  { input: [1, 2, 3, 4, 3, 2, 1], expected: true },
 ];
 
 console.table(
-  testCases.map(({ list1, list2, expected }) => {
-    const l1 = arrayToList(list1);
-    const l2 = arrayToList(list2);
-    const merged = mergeTwoLists(l1, l2);
-    const actual = listToArray(merged);
-    const passed = `${actual}` === `${expected}`;
+  testCases.map(({ input, expected }) => {
+    const list = arrayToList(input);
+    const result = isPalindrome(list);
+    const passed = result === expected;
 
     return {
-      List1: `[${list1}]`,
-      List2: `[${list2}]`,
-      Expected: `[${expected}]`,
-      Actual: `[${actual}]`,
+      Input: `[${input}]`,
+      Expected: expected,
+      Actual: result,
       Passed: passed ? "PASS" : "FAIL",
     };
   }),
@@ -123,11 +111,7 @@ console.table(
 
 **Hints**
 
-- **The Dummy Head Pattern:** Create a sentinel node: `const dummy = new ListNode(-1);` and track a pointer `let current = dummy;`. This prevents special edge cases when choosing the first node.
-- **Comparison Loop:** While both `list1 !== null && list2 !== null`:
-- If `list1.val <= list2.val`, attach `current.next = list1` and advance `list1 = list1.next`.
-- Otherwise, attach `current.next = list2` and advance `list2 = list2.next`.
-- Always move `current = current.next`.
-
-- **Leftover Nodes:** After the loop terminates, at most one list still has nodes. Attach the remaining chain in $O(1)$ time: `current.next = list1 !== null ? list1 : list2;`.
-- **Return the Real Head:** Return `dummy.next`.
+- **Phase 1 (Find the Middle):** Use the Day 18 technique (slow/fast pointers) to locate the midpoint of the linked list.
+- **Phase 2 (Reverse the Second Half):** Use the Day 16 technique (`prev`, `curr`, `nextTemp`) to reverse the second half of the list in place, starting right after the midpoint.
+- **Phase 3 (Compare Both Halves):** Run two pointers simultaneously—one starting from `head` and the other from the head of the newly reversed second half. Compare their values until the second half hits `null`.
+- **Optional Polish:** In production, it is standard practice to reverse the second half back to its original orientation before returning to keep data mutations non-destructive.

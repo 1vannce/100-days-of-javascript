@@ -45,6 +45,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 019 | Merge Two Sorted Lists                                  | `day-019` | ✅ Completed |
 | 020 | Palindrome Linked List                                  | `day-020` | ✅ Completed |
 | 021 | Remove Nth Node From End of List                        | `day-021` | ✅ Completed |
+| 022 | Swap Nodes in Pairs                                     | `day-022` | ✅ Completed |
 
 ## How to Run a Solution
 

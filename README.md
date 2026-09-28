@@ -48,6 +48,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 022 | Swap Nodes in Pairs                                     | `day-022` | ✅ Completed |
 | 023 | Evaluate Reverse Polish Notation                        | `day-023` | ✅ Completed |
 | 024 | Daily Temperatures                                      | `day-024` | ✅ Completed |
+| 025 | Implement Queue using Stacks                            | `day-025` | ✅ Completed |
 
 ## How to Run a Solution
 

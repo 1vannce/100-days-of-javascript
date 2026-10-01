@@ -50,6 +50,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 024 | Daily Temperatures                                      | `day-024` | ✅ Completed |
 | 025 | Implement Queue using Stacks                            | `day-025` | ✅ Completed |
 | 026 | Sliding Window Maximum                                  | `day-026` | ✅ Completed |
+| 027 | Binary Tree Inorder Traversal                           | `day-027` | ✅ Completed |
 
 ## How to Run a Solution
 

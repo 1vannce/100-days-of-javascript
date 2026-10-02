@@ -52,6 +52,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 026 | Sliding Window Maximum                                  | `day-026` | ✅ Completed |
 | 027 | Binary Tree Inorder Traversal                           | `day-027` | ✅ Completed |
 | 028 | Binary Tree Level Order Traversal                       | `day-028` | ✅ Completed |
+| 029 | Maximum Depth of Binary Tree                            | `day-029` | ✅ Completed |
 
 ## How to Run a Solution
 

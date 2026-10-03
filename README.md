@@ -53,6 +53,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 027 | Binary Tree Inorder Traversal                           | `day-027` | ✅ Completed |
 | 028 | Binary Tree Level Order Traversal                       | `day-028` | ✅ Completed |
 | 029 | Maximum Depth of Binary Tree                            | `day-029` | ✅ Completed |
+| 030 | Invert Binary Tree                                      | `day-030` | ✅ Completed |
 
 ## How to Run a Solution
 

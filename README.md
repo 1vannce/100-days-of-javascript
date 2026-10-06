@@ -55,6 +55,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 029 | Maximum Depth of Binary Tree                            | `day-029` | ✅ Completed |
 | 030 | Invert Binary Tree                                      | `day-030` | ✅ Completed |
 | 031 | Symmetric Tree                                          | `day-031` | ✅ Completed |
+| 032 | Path Sum                                                | `day-032` | ✅ Completed |
 
 ## How to Run a Solution
 

@@ -56,6 +56,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 030 | Invert Binary Tree                                      | `day-030` | ✅ Completed |
 | 031 | Symmetric Tree                                          | `day-031` | ✅ Completed |
 | 032 | Path Sum                                                | `day-032` | ✅ Completed |
+| 033 | Diameter of Binary Tree                                 | `day-033` | ✅ Completed |
 
 ## How to Run a Solution
 

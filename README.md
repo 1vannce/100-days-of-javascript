@@ -57,6 +57,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 031 | Symmetric Tree                                          | `day-031` | ✅ Completed |
 | 032 | Path Sum                                                | `day-032` | ✅ Completed |
 | 033 | Diameter of Binary Tree                                 | `day-033` | ✅ Completed |
+| 034 | Validate Binary Search Tree                             | `day-034` | ✅ Completed |
 
 ## How to Run a Solution
 

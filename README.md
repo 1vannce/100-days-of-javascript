@@ -60,6 +60,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 034 | Validate Binary Search Tree                             | `day-034` | ✅ Completed |
 | 035 | Lowest Common Ancestor of a Binary Search Tree          | `day-035` | ✅ Completed |
 | 036 | Kth Smallest Element in a BST                           | `day-036` | ✅ Completed |
+| 037 | Convert Sorted Array to Binary Search Tree              | `day-037` | ✅ Completed |
 
 ## How to Run a Solution
 

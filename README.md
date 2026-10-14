@@ -62,6 +62,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 036 | Kth Smallest Element in a BST                           | `day-036` | ✅ Completed |
 | 037 | Convert Sorted Array to Binary Search Tree              | `day-037` | ✅ Completed |
 | 038 | Insert into a Binary Search Tree                        | `day-038` | ✅ Completed |
+| 039 | Delete Node in a BST                                    | `day-039` | ✅ Completed |
 
 ## How to Run a Solution
 

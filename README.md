@@ -65,6 +65,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 039 | Delete Node in a BST                                    | `day-039` | ✅ Completed |
 | 040 | Binary Tree Maximum Path Sum                            | `day-040` | ✅ Completed |
 | 041 | Implement a Min-Heap                                    | `day-041` | ✅ Completed |
+| 042 | Kth Largest Element in an Array                         | `day-042` | ✅ Completed |
 
 ## How to Run a Solution
 

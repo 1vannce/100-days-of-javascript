@@ -68,6 +68,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 042 | Kth Largest Element in an Array                         | `day-042` | ✅ Completed |
 | 043 | Find K Closest Elements                                 | `day-043` | ✅ Completed |
 | 044 | Merge k Sorted Lists                                    | `day-044` | ✅ Completed |
+| 045 | Find Median from Data Stream                            | `day-045` | ✅ Completed |
 
 ## How to Run a Solution
 

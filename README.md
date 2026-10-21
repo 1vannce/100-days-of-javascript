@@ -70,6 +70,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 044 | Merge k Sorted Lists                                    | `day-044` | ✅ Completed |
 | 045 | Find Median from Data Stream                            | `day-045` | ✅ Completed |
 | 046 | Task Scheduler                                          | `day-046` | ✅ Completed |
+| 047 | Number of Islands                                       | `day-047` | ✅ Completed |
 
 ## How to Run a Solution
 

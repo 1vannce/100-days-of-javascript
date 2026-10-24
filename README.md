@@ -73,6 +73,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 047 | Number of Islands                                       | `day-047` | ✅ Completed |
 | 048 | Rotting Oranges                                         | `day-048` | ✅ Completed |
 | 049 | Pacific Atlantic Water Flow                             | `day-049` | ✅ Completed |
+| 050 | Course Schedule                                         | `day-050` | ✅ Completed |
 
 ## How to Run a Solution
 

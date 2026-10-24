@@ -67,7 +67,11 @@ function listToArray(head) {
 
 const testCases = [
   {
-    rawLists: [[1, 4, 5], [1, 3, 4], [2, 6]],
+    rawLists: [
+      [1, 4, 5],
+      [1, 3, 4],
+      [2, 6],
+    ],
     expected: [1, 1, 2, 3, 4, 4, 5, 6],
   },
   { rawLists: [], expected: [] },

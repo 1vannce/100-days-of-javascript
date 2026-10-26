@@ -75,6 +75,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 049 | Pacific Atlantic Water Flow                             | `day-049` | ✅ Completed |
 | 050 | Course Schedule                                         | `day-050` | ✅ Completed |
 | 051 | Course Schedule II                                      | `day-051` | ✅ Completed |
+| 052 | Redundant Connection                                    | `day-052` | ✅ Completed |
 
 ## How to Run a Solution
 

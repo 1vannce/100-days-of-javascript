@@ -77,6 +77,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 051 | Course Schedule II                                      | `day-051` | ✅ Completed |
 | 052 | Redundant Connection                                    | `day-052` | ✅ Completed |
 | 053 | Min Cost to Connect All Points                          | `day-053` | ✅ Completed |
+| 054 | Network Delay Time                                      | `day-054` | ✅ Completed |
 
 ## How to Run a Solution
 

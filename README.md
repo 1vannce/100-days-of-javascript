@@ -79,6 +79,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 053 | Min Cost to Connect All Points                          | `day-053` | ✅ Completed |
 | 054 | Network Delay Time                                      | `day-054` | ✅ Completed |
 | 055 | Cheapest Flights Within K Stops                         | `day-055` | ✅ Completed |
+| 056 | Word Ladder                                             | `day-056` | ✅ Completed |
 
 ## How to Run a Solution
 

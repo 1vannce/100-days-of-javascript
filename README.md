@@ -82,6 +82,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 056 | Word Ladder                                             | `day-056` | ✅ Completed |
 | 057 | Subsets                                                 | `day-057` | ✅ Completed |
 | 058 | Subsets II                                              | `day-058` | ✅ Completed |
+| 059 | Permutations                                            | `day-059` | ✅ Completed |
 
 ## How to Run a Solution
 

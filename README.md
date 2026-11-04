@@ -84,6 +84,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 058 | Subsets II                                              | `day-058` | ✅ Completed |
 | 059 | Permutations                                            | `day-059` | ✅ Completed |
 | 060 | Permutations II                                         | `day-060` | ✅ Completed |
+| 061 | Combination Sum                                         | `day-061` | ✅ Completed |
 
 ## How to Run a Solution
 

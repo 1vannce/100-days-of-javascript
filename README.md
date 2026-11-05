@@ -85,6 +85,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 059 | Permutations                                            | `day-059` | ✅ Completed |
 | 060 | Permutations II                                         | `day-060` | ✅ Completed |
 | 061 | Combination Sum                                         | `day-061` | ✅ Completed |
+| 062 | Combination Sum II                                      | `day-062` | ✅ Completed |
 
 ## How to Run a Solution
 

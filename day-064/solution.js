@@ -84,7 +84,7 @@ const testCases = [
   {
     name: "Symmetric palindrome 'racecar'",
     s: "racecar",
-    expectedCount: 7,
+    expectedCount: 4, // r|a|c|e|c|a|r, r|a|cec|a|r, r|aceca|r, racecar
     expectedPartitions: null,
   },
 ];

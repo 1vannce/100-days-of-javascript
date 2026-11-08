@@ -86,6 +86,9 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 060 | Permutations II                                         | `day-060` | ✅ Completed |
 | 061 | Combination Sum                                         | `day-061` | ✅ Completed |
 | 062 | Combination Sum II                                      | `day-062` | ✅ Completed |
+| 063 | Combination Sum III                                     | `day-063` | ✅ Completed |
+| 064 | Palindrome Partitioning                                 | `day-064` | ✅ Completed |
+| 065 | Word Search                                             | `day-065` | ✅ Completed |
 
 ## How to Run a Solution
 

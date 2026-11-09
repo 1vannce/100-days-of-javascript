@@ -89,6 +89,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 063 | Combination Sum III                                     | `day-063` | ✅ Completed |
 | 064 | Palindrome Partitioning                                 | `day-064` | ✅ Completed |
 | 065 | Word Search                                             | `day-065` | ✅ Completed |
+| 066 | N-Queens                                                | `day-066` | ✅ Completed |
 
 ## How to Run a Solution
 

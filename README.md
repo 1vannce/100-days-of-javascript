@@ -90,6 +90,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 064 | Palindrome Partitioning                                 | `day-064` | ✅ Completed |
 | 065 | Word Search                                             | `day-065` | ✅ Completed |
 | 066 | N-Queens                                                | `day-066` | ✅ Completed |
+| 067 | Sudoku Solver                                           | `day-067` | ✅ Completed |
 
 ## How to Run a Solution
 

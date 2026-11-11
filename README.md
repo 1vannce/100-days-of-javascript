@@ -91,6 +91,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 065 | Word Search                                             | `day-065` | ✅ Completed |
 | 066 | N-Queens                                                | `day-066` | ✅ Completed |
 | 067 | Sudoku Solver                                           | `day-067` | ✅ Completed |
+| 068 | Letter Combinations of a Phone Number                   | `day-068` | ✅ Completed |
 
 ## How to Run a Solution
 

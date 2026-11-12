@@ -92,6 +92,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 066 | N-Queens                                                | `day-066` | ✅ Completed |
 | 067 | Sudoku Solver                                           | `day-067` | ✅ Completed |
 | 068 | Letter Combinations of a Phone Number                   | `day-068` | ✅ Completed |
+| 069 | Restore IP Addresses                                    | `day-069` | ✅ Completed |
 
 ## How to Run a Solution
 

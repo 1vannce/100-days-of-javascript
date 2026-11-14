@@ -94,6 +94,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 068 | Letter Combinations of a Phone Number                   | `day-068` | ✅ Completed |
 | 069 | Restore IP Addresses                                    | `day-069` | ✅ Completed |
 | 070 | Word Break II                                           | `day-070` | ✅ Completed |
+| 071 | Climbing Stairs                                         | `day-071` | ✅ Completed |
 
 ## How to Run a Solution
 

@@ -95,6 +95,8 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 069 | Restore IP Addresses                                    | `day-069` | ✅ Completed |
 | 070 | Word Break II                                           | `day-070` | ✅ Completed |
 | 071 | Climbing Stairs                                         | `day-071` | ✅ Completed |
+| 072 | House Robber                                            | `day-072` | ✅ Completed |
+| 073 | House Robber II                                         | `day-073` | ✅ Completed |
 
 ## How to Run a Solution
 

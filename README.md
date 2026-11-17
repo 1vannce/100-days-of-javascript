@@ -97,6 +97,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 071 | Climbing Stairs                                         | `day-071` | ✅ Completed |
 | 072 | House Robber                                            | `day-072` | ✅ Completed |
 | 073 | House Robber II                                         | `day-073` | ✅ Completed |
+| 074 | Coin Change                                             | `day-074` | ✅ Completed |
 
 ## How to Run a Solution
 

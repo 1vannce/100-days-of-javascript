@@ -99,6 +99,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 073 | House Robber II                                         | `day-073` | ✅ Completed |
 | 074 | Coin Change                                             | `day-074` | ✅ Completed |
 | 075 | Coin Change II                                          | `day-075` | ✅ Completed |
+| 076 | Longest Increasing Subsequence                          | `day-076` | ✅ Completed |
 
 ## How to Run a Solution
 

@@ -102,6 +102,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 076 | Longest Increasing Subsequence                          | `day-076` | ✅ Completed |
 | 077 | Partition Equal Subset Sum                              | `day-077` | ✅ Completed |
 | 078 | Unique Paths                                            | `day-078` | ✅ Completed |
+| 079 | Unique Paths II                                         | `day-079` | ✅ Completed |
 
 ## How to Run a Solution
 

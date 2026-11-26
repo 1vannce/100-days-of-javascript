@@ -8,7 +8,7 @@ You have the following three operations permitted on a word:
 2. **Delete** a character
 3. **Replace** a character
 
-**Crucial Requirement:** A naive top-down recursion branching on insert, delete, and replace operations runs in $O(3^{\max(M, N)})$ exponential time. Solve this using **bottom-up 2D Dynamic Programming** in **$O(M \times N)$ time** (where $M = \text{word1.length}$ and $N = \text{word2.length}$), and optimize the memory footprint from an $O(M \times N)$ matrix down to **$O(\min(M, N))$ auxiliary space** using a 1D rolling row and a diagonal tracker variable.
+**Crucial Requirement:** A naive top-down recursion branching on insert, delete, and replace operations takes exponential time, loosely bounded by $O(3^{M + N})$. Solve this using **bottom-up 2D Dynamic Programming** in **$O(M \times N)$ time** (where $M = \text{word1.length}$ and $N = \text{word2.length}$), and optimize the memory footprint from an $O(M \times N)$ matrix down to **$O(\min(M, N))$ auxiliary space** using a 1D rolling row and a diagonal tracker variable.
 
 **Examples**
 

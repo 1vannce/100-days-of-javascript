@@ -104,6 +104,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 078 | Unique Paths                                            | `day-078` | ✅ Completed |
 | 079 | Unique Paths II                                         | `day-079` | ✅ Completed |
 | 080 | Minimum Path Sum                                        | `day-080` | ✅ Completed |
+| 083 | Longest Palindromic Subsequence                         | `day-083` | ✅ Completed |
 
 ## How to Run a Solution
 

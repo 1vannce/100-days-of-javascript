@@ -106,6 +106,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 080 | Minimum Path Sum                                        | `day-080` | ✅ Completed |
 | 081 | Longest Common Subsequence                              | `day-081` | ✅ Completed |
 | 082 | Edit Distance                                           | `day-082` | ✅ Completed |
+| 083 | Longest Palindromic Subsequence                         | `day-083` | ✅ Completed |
 
 ## How to Run a Solution
 

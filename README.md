@@ -107,6 +107,7 @@ As new days are added, follow the same pattern (`day-002`, `day-003`, ...).
 | 081 | Longest Common Subsequence                              | `day-081` | ✅ Completed |
 | 082 | Edit Distance                                           | `day-082` | ✅ Completed |
 | 083 | Longest Palindromic Subsequence                         | `day-083` | ✅ Completed |
+| 084 | Distinct Subsequences                                   | `day-084` | ✅ Completed |
 
 ## How to Run a Solution
 

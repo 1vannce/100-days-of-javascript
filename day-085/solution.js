@@ -37,6 +37,38 @@ function isMatch(s, p) {
   return dp[n];
 }
 
+/**
+ * Bonus: two-pointer greedy with backtracking to the last '*' — O(1) space.
+ * Time is O(M * N) worst case, usually near linear.
+ * @param {string} s
+ * @param {string} p
+ * @return {boolean}
+ */
+function isMatchGreedy(s, p) {
+  let i = 0;
+  let j = 0;
+  let starIdx = -1; // position of the last '*' in p
+  let matchIdx = 0; // position in s where that '*' last resumed
+
+  while (i < s.length) {
+    if (j < p.length && (p[j] === "?" || p[j] === s[i])) {
+      i++;
+      j++;
+    } else if (j < p.length && p[j] === "*") {
+      starIdx = j++;
+      matchIdx = i; // let '*' match empty first
+    } else if (starIdx !== -1) {
+      j = starIdx + 1; // retry: '*' swallows one more character
+      i = ++matchIdx;
+    } else {
+      return false;
+    }
+  }
+
+  while (j < p.length && p[j] === "*") j++;
+  return j === p.length;
+}
+
 const testCases = [
   { name: "Exact literal mismatch ('aa', 'a')", s: "aa", p: "a", expected: false },
   { name: "Single wildcard star matching all ('aa', '*')", s: "aa", p: "*", expected: true },
@@ -57,7 +89,8 @@ console.table(
     const start = performance.now();
     const result = isMatch(s, p);
     const elapsedMs = (performance.now() - start).toFixed(4);
-    const passed = result === expected;
+    const greedy = isMatchGreedy(s, p);
+    const passed = result === expected && greedy === expected;
 
     return {
       Scenario: name,

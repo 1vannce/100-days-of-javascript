@@ -50,3 +50,4 @@ function isMatch(s, p) {
    - `'*'`: `dp[i][j] = dp[i][j - 1] || dp[i - 1][j]` (match zero characters, or consume one and keep the `'*'`).
    - Otherwise `false`.
 4. **Rolling row:** Keep one array. Before overwriting `dp[j]`, save it in `temp`; `prevDiag` carries the previous row's `dp[j - 1]`.
+5. **Bonus (O(1) space):** `isMatchGreedy` walks `s` and `p` with two pointers. On `'*'` it remembers the star's position and tries matching empty first. On a later mismatch it backtracks to the last star and lets it swallow one more character. Worst case is still O(M×N) time, but only a few integers are stored.
